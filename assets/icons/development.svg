@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-development">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="development" clip-path="url(#clip-development)">
+    <path id="Path_80" data-name="Path 80" d="M16.7,44.868c-13,0-15.062-4.1-15.062-16.773S7.032,5.144,20.034,5.144s21.609,17.229,21.609,29.9S29.707,44.868,16.7,44.868Z" transform="translate(2.357 -1.144)" fill="#2196f3" opacity="0.15"/>
+    <path id="Union_6" data-name="Union 6" d="M11.393,26.321,6.785,21.713,14.8,13.7H23.98L24,13.72l-12.6,12.6h0ZM4.608,19.4,0,14.8,14.8,0h9.157l.031.032L4.611,19.4v0Z" transform="translate(9.745 10.368)"/>
+    <path id="Subtraction_8" data-name="Subtraction 8" d="M17.007,12.435H7.829L0,4.609,4.609,0,17.028,12.414l-.021.021Z" transform="translate(16.53 27.46)" opacity="0.55"/>
+  </g>
+</svg>
