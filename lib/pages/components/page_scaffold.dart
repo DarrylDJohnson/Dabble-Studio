@@ -14,6 +14,7 @@ class PageScaffold extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: appbar(),
       drawer: drawer(),
       body: child,

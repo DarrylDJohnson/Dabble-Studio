@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       routes: routes,
       theme: ThemeData(
         fontFamily: "Quicksand",
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.lightBlue,
       ),
       home: HomePage(),
     );

@@ -1,10 +1,12 @@
 import 'package:dabble_studio/pages/components/page_scaffold.dart';
 import 'package:dabble_studio/pages/contact/contact_sliver.dart';
-import 'package:dabble_studio/pages/projects/projects_sliver.dart';
-import 'package:dabble_studio/pages/services/services_sliver.dart';
+import '../../ui/slivers/project/project_sliver.dart';
+import 'package:dabble_studio/ui/slivers/mission_sliver.dart';
 import 'package:flutter/material.dart';
 
-import 'slivers/header_sliver.dart';
+import '../../ui/slivers/about_me/about_me_sliver.dart';
+import '../../ui/slivers/service/service_sliver.dart';
+import '../../ui/slivers/hero/hero_sliver.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -12,8 +14,22 @@ class HomePage extends StatelessWidget {
     return PageScaffold(
       child: CustomScrollView(
         slivers: [
-          HeaderSliver(),
-          ServicesSliver(),
+          HeroSliver(),
+          FlutterSliver(),
+          ServiceSliver(),
+          SliverToBoxAdapter(
+            child: Container(
+              height: 24.0,
+              color: Colors.grey.shade200,
+            ),
+          ),
+          AboutMeSliver(),
+          SliverToBoxAdapter(
+            child: Container(
+              height: 24.0,
+              color: Colors.grey.shade200,
+            ),
+          ),
           ProjectsSliver(),
           ContactSliver(),
         ],

@@ -1,8 +1,9 @@
 import 'package:dabble_studio/models/project.dart';
 import 'package:dabble_studio/pages/components/link_tile.dart';
-import 'package:dabble_studio/pages/projects/components/project_dialog.dart';
 import 'package:dabble_studio/utilities/constants.dart';
 import 'package:flutter/material.dart';
+
+import 'project_dialog.dart';
 
 class ProjectCard extends StatefulWidget {
   final Project project;

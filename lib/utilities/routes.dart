@@ -1,8 +1,8 @@
 import 'package:dabble_studio/pages/about/about_page.dart';
 import 'package:dabble_studio/pages/contact/contact_page.dart';
 import 'package:dabble_studio/pages/home/home_page.dart';
-import 'package:dabble_studio/pages/projects/projects_page.dart';
-import 'package:dabble_studio/pages/services/services_page.dart';
+import '../ui/pages/project/projects_page.dart';
+import '../ui/pages/services_page.dart';
 
 const String homeRoute = "/home";
 const String projectRoute = "/project";
