@@ -1,7 +1,7 @@
 import 'package:dabble_studio/utilities/routes.dart';
 import 'package:flutter/material.dart';
 
-import 'pages/home/home_page.dart';
+import 'ui/pages/home/home_page.dart';
 
 void main() {
   runApp(MyApp());

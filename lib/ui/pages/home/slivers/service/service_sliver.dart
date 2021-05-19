@@ -1,8 +1,9 @@
 import 'package:dabble_studio/ui/components/list_sliver.dart';
-import 'package:dabble_studio/ui/slivers/service/components/service_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:sizer/sizer.dart';
+
+import 'components/service_tile.dart';
 
 class ServiceSliver extends StatelessWidget {
   @override
@@ -25,12 +26,14 @@ class ServiceSliver extends StatelessWidget {
               ServiceTile(
                 iconData: MdiIcons.update,
                 title: "Project Management".toUpperCase(),
-                subtitle: "Subscribe for maintenance - manage updates, fix bugs & get discounts on new features",
+                subtitle:
+                    "Subscribe for maintenance - manage updates, fix bugs & get discounts on new features",
               ),
               ServiceTile(
                 iconData: MdiIcons.store,
                 title: "Ecommerce".toUpperCase(),
-                subtitle: "Build a web and mobile web store for your business with an intuitive back office to manage products.",
+                subtitle:
+                    "Build a web and mobile web store for your business with an intuitive back office to manage products.",
               ),
             ],
           );

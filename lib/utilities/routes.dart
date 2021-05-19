@@ -1,6 +1,6 @@
-import 'package:dabble_studio/pages/about/about_page.dart';
+import '../ui/pages/about/about_page.dart';
 import 'package:dabble_studio/pages/contact/contact_page.dart';
-import 'package:dabble_studio/pages/home/home_page.dart';
+import '../ui/pages/home/home_page.dart';
 import '../ui/pages/project/projects_page.dart';
 import '../ui/pages/services_page.dart';
 

@@ -1,12 +1,12 @@
 import 'package:dabble_studio/pages/components/page_scaffold.dart';
 import 'package:dabble_studio/pages/contact/contact_sliver.dart';
-import '../../ui/slivers/project/project_sliver.dart';
-import 'package:dabble_studio/ui/slivers/mission_sliver.dart';
 import 'package:flutter/material.dart';
 
-import '../../ui/slivers/about_me/about_me_sliver.dart';
-import '../../ui/slivers/service/service_sliver.dart';
-import '../../ui/slivers/hero/hero_sliver.dart';
+import 'slivers/about_me/about_me_sliver.dart';
+import 'slivers/hero/hero_sliver.dart';
+import 'slivers/mission_sliver.dart';
+import 'slivers/project/project_sliver.dart';
+import 'slivers/service/service_sliver.dart';
 
 class HomePage extends StatelessWidget {
   @override

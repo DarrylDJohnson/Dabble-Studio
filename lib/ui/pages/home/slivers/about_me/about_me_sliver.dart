@@ -1,7 +1,8 @@
 import 'package:dabble_studio/ui/components/list_sliver.dart';
-import 'package:dabble_studio/ui/slivers/about_me/components/about_me_image.dart';
-import 'package:dabble_studio/ui/slivers/about_me/components/about_me_text.dart';
 import 'package:flutter/material.dart';
+
+import 'components/about_me_image.dart';
+import 'components/about_me_text.dart';
 
 class AboutMeSliver extends StatelessWidget {
   @override

@@ -1,8 +1,7 @@
 import 'package:dabble_studio/models/project.dart';
 import 'package:dabble_studio/pages/components/page_scaffold.dart';
-import 'package:dabble_studio/ui/slivers/project/components/project_tile.dart';
+import 'package:dabble_studio/ui/pages/home/slivers/project/components/project_tile.dart';
 import 'package:flutter/material.dart';
-
 
 class ProjectPage extends StatefulWidget {
   @override
