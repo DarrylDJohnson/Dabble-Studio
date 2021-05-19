@@ -32,6 +32,9 @@ dependencies:
 
   flutter_svg: ^0.19.3
   sizer: ^2.0.13
+  firebase_core: ^1.2.0
+  firebase_storage: ^8.1.0
+  firebase_analytics: ^8.1.0
 
 dev_dependencies:
   flutter_test:
