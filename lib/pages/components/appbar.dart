@@ -1,3 +1,4 @@
+import 'package:dabble_studio/ui/components/contact_button.dart';
 import 'package:dabble_studio/utilities/routes.dart';
 import 'package:flutter/material.dart';
 
@@ -37,8 +38,13 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
       elevation: 0.0,
       textTheme: Theme.of(context).textTheme,
       iconTheme: Theme.of(context).iconTheme,
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.white,
       centerTitle: true,
+      shape: RoundedRectangleBorder(
+        side: BorderSide(
+          color: Colors.black12,
+        ),
+      ),
       leadingWidth: MediaQuery.of(context).size.width < 720 ? 72.0 : 172.0,
       leading: MediaQuery.of(context).size.width < 720
           ? IconButton(
@@ -101,6 +107,12 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                 ),
               ],
             ),
+      actions: [
+        ContactButton.gmail(),
+        ContactButton.linkedIn(),
+        ContactButton.github(),
+        ContactButton.stackOverflow()
+      ],
     );
   }
 }

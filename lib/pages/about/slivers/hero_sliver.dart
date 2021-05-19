@@ -73,7 +73,7 @@ class HeaderSliver extends StatelessWidget {
             child: AspectRatio(
               aspectRatio: 1.0,
               child: Image.asset(
-                "images/darryl_johnson.png",
+                "images/darryljohnson.png",
                 alignment: Alignment.bottomCenter,
                 fit: BoxFit.fitWidth,
               ),
