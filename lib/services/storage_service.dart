@@ -1,14 +1,19 @@
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:flutter/material.dart';
+import 'package:firebase/firebase.dart';
 
 class StorageService {
-  final FirebaseStorage _storage;
 
-  StorageService() : _storage = FirebaseStorage.instance;
+  final FirebaseStorage storage;
 
-  Future<String> getUrl (String assetName) {
-    return _storage.ref().child(assetName).getDownloadURL();
+  StorageService() : storage = FirebaseStorage.instance;
+  
+  Future<String> getUrl(String assetName){
+    try{
+
+      return storage.ref().child(assetName).getDownloadURL();
+    } catch(e){
+      print(e);
+      return Future.value("");
+    }
   }
-
-
 }
