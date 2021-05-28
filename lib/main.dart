@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       initialRoute: homeRoute,
       routes: routes,
       theme: ThemeData(
-        fontFamily: "Quicksand",
+        fontFamily: "Roboto",
         primarySwatch: Colors.lightBlue,
       ),
       home: HomePage(),
