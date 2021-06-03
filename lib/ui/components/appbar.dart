@@ -1,3 +1,5 @@
+import 'package:dabble_studio/ui/components/call_to_action_button.dart';
+import 'package:dabble_studio/ui/contact/components/contact_dialog.dart';
 import 'package:dabble_studio/utilities/routes.dart';
 import 'package:flutter/material.dart';
 
@@ -17,6 +19,8 @@ class AppBarSliver extends StatelessWidget implements PreferredSizeWidget {
       centerTitle: true,
       textTheme: Theme.of(context).textTheme,
       iconTheme: Theme.of(context).iconTheme,
+      floating: true,
+      pinned: true,
       backgroundColor: Colors.white,
       shape: RoundedRectangleBorder(
         side: BorderSide(
@@ -81,18 +85,6 @@ class AppBarSliver extends StatelessWidget implements PreferredSizeWidget {
               onPressed: () =>
                   Navigator.of(context).popAndPushNamed(aboutRoute),
             ),
-            TextButton(
-              child: Text(
-                "Contact",
-                style: TextStyle(
-                  color: route == contactRoute
-                      ? Theme.of(context).accentColor
-                      : Colors.black,
-                ),
-              ),
-              onPressed: () =>
-                  Navigator.of(context).popAndPushNamed(contactRoute),
-            ),
           ],
         ),
       ),
@@ -100,7 +92,7 @@ class AppBarSliver extends StatelessWidget implements PreferredSizeWidget {
         ContactButton.gmail(),
         ContactButton.linkedIn(),
         ContactButton.github(),
-        ContactButton.stackOverflow()
+        ContactButton.stackOverflow(),
       ],
     );
   }

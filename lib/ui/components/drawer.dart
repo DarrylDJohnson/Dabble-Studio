@@ -31,11 +31,6 @@ class MenuDrawer extends StatelessWidget {
             title: Text("About me"),
             onTap: () => Navigator.of(context).popAndPushNamed(aboutRoute),
           ),
-          ListTile(
-            selected: route == contactRoute,
-            title: Text("Contact"),
-            onTap: () => Navigator.of(context).popAndPushNamed(contactRoute),
-          ),
         ],
       ),
     );

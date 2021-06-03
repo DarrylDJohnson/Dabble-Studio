@@ -1,3 +1,4 @@
+import 'package:dabble_studio/ui/about/about_page.dart';
 import 'package:dabble_studio/ui/home/home_page.dart';
 import 'package:dabble_studio/utilities/routes.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -24,7 +25,6 @@ class MyApp extends StatelessWidget {
         fontFamily: "Roboto",
         primarySwatch: Colors.lightBlue,
       ),
-      home: HomePage(),
     );
   }
 }

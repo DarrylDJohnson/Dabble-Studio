@@ -8,10 +8,15 @@ const kSliverConstraint = BoxConstraints(maxWidth: 512.0);
 
 const kMobileWidth = 720.0;
 
-final kHeaderTextStyle = TextStyle(
+final kDarkHeaderTextStyle = TextStyle(
   fontWeight: FontWeight.w600,
   fontSize: 40.0,
   color: Colors.white,
+);
+final kLightHeaderTextStyle = TextStyle(
+  fontWeight: FontWeight.w600,
+  fontSize: 40.0,
+  color: Colors.black,
 );
 
 final kCallToActionButtonTextStyle = TextStyle(
@@ -26,4 +31,11 @@ final kActionButtonTextStyle = TextStyle(
   fontSize: 14.0,
   letterSpacing: 1.0,
   color: Colors.lightBlue,
+);
+
+final kContactLabelTextStyle = TextStyle(
+  fontWeight: FontWeight.w600,
+  fontSize: 14.0,
+  letterSpacing: 1.0,
+  color: Colors.black,
 );

@@ -7,27 +7,33 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 class ContactButton extends StatelessWidget {
   final IconData iconData;
   final String url;
+  final Brightness brightness;
 
   const ContactButton({
     Key key,
     this.iconData,
     this.url,
+    this.brightness = Brightness.dark,
   }) : super(key: key);
 
-  ContactButton.gmail()
-      : iconData = MdiIcons.gmail,
+  ContactButton.gmail({
+    this.brightness = Brightness.dark,
+  })  : iconData = MdiIcons.gmail,
         url = "mailto:djohnson@dabble.studio";
 
-  ContactButton.linkedIn()
-      : iconData = MdiIcons.linkedin,
+  ContactButton.linkedIn({
+    this.brightness = Brightness.dark,
+  })  : iconData = MdiIcons.linkedin,
         url = "https://www.linkedin.com/in/darryldjohnson";
 
-  ContactButton.github()
-      : iconData = MdiIcons.github,
+  ContactButton.github({
+    this.brightness = Brightness.dark,
+  })  : iconData = MdiIcons.github,
         url = "https://www.github.com/darryldjohnson";
 
-  ContactButton.stackOverflow()
-      : iconData = MdiIcons.stackOverflow,
+  ContactButton.stackOverflow({
+    this.brightness = Brightness.dark,
+  })  : iconData = MdiIcons.stackOverflow,
         url = "https://stackoverflow.com/users/story/6477796";
 
   @override
@@ -37,7 +43,7 @@ class ContactButton extends StatelessWidget {
       icon: Icon(
         iconData,
         size: 20.0,
-        color: Colors.black26,
+        color: brightness == Brightness.dark ? Colors.black26 : Colors.white,
       ),
     );
   }

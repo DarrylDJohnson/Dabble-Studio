@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'appbar.dart';
 import 'drawer.dart';
 
+export 'package:dabble_studio/utilities/extensions.dart';
+
 class PageScaffold extends StatelessWidget {
   final List<Widget> slivers;
 
@@ -22,7 +24,7 @@ class PageScaffold extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.shade200,
+      backgroundColor: Colors.white,
       drawer: drawer(),
       body: CustomScrollView(
         slivers: _buildSlivers(),
