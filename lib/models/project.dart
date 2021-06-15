@@ -32,7 +32,7 @@ final List<Project> projects = [
       "OpenWeatherMap",
     ],
     links: [
-      Link.github("https://github.com/DarrylDJohnson/Weather"),
+      Link.github("https://www.github.com/DarrylDJohnson/Weather"),
       Link.web("https://www.weather.dabble.studio"),
     ],
   ),
@@ -55,9 +55,9 @@ final List<Project> projects = [
     ],
     links: [
       Link.web("https://www.notes.dabble.studio"),
-      Link.github("https://github.com/DarrylDJohnson/notes"),
+      Link.github("https://www.github.com/DarrylDJohnson/notes"),
       Link.android(
-        "https://play.google.com/store/apps/details?id=com.dabble.notes",
+        "https://www.play.google.com/store/apps/details?id=com.dabble.notes",
       )
     ],
   ),
