@@ -20,7 +20,7 @@ class ProjectLinks extends StatelessWidget {
           return ListTile(
             leading: Icon(link.iconData),
             title: Text(link.title),
-            onTap: () => html.window.open(link.title, link.url),
+            onTap: () => html.window.open(link.url, link.url),
           );
         },
       ),
