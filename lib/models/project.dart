@@ -57,7 +57,7 @@ final List<Project> projects = [
       Link.web("https://www.notes.dabble.studio"),
       Link.github("https://www.github.com/DarrylDJohnson/notes"),
       Link.android(
-        "https://www.play.google.com/store/apps/details?id=com.dabble.notes",
+        "https://play.google.com/store/apps/details?id=com.dabble.notes",
       )
     ],
   ),
