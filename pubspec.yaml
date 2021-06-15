@@ -32,6 +32,13 @@ dependencies:
 
   flutter_svg: ^0.19.3
   sizer: ^2.0.13
+  firebase_core: ^1.2.0
+  firebase_storage: ^8.1.0
+  firebase_analytics: ^8.1.0
+  validators: ^3.0.0
+  cloud_firestore: ^2.2.1
+  flutter_bloc: ^7.0.1
+  equatable: ^2.0.2
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +52,7 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/logos/
 
   fonts:
     - family: Quicksand
@@ -59,6 +67,36 @@ flutter:
           weight: 300
         - asset: fonts/quicksand/Quicksand-Light.ttf
           weight: 100
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto/Roboto-Bold.ttf
+          weight: 900
+        - asset: fonts/roboto/Roboto-BoldItalic.ttf
+          weight: 900
+          style: italic
+        - asset: fonts/roboto/Roboto-Black.ttf
+          weight: 700
+        - asset: fonts/roboto/Roboto-BlackItalic.ttf
+          weight: 700
+          style: italic
+        - asset: fonts/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/roboto/Roboto-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: fonts/roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: fonts/roboto/Roboto-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: fonts/roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: fonts/roboto/Roboto-Thin.ttf
+          weight: 100
+          style: italic
+        - asset: fonts/roboto/Roboto-Regular.ttf
+        - asset: fonts/roboto/Roboto-Italic.ttf
+          style: italic
 
 
   uses-material-design: true

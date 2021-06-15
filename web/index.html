@@ -32,30 +32,6 @@
 </head>
 <body>
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyAq7Q9sPey3y9em-KiyQhrqL3btpmxN5nk",
-    authDomain: "dabble-studio.firebaseapp.com",
-    projectId: "dabble-studio",
-    storageBucket: "dabble-studio.appspot.com",
-    messagingSenderId: "8424145391",
-    appId: "1:8424145391:web:867069dc5cfcacf2bb361a",
-    measurementId: "G-DL98Y68R8W"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-
-</script>
 <!-- This script installs service_worker.js to provide PWA functionality to
      application. For more information, see:
      https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -124,5 +100,34 @@
     }
 
 </script>
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAq7Q9sPey3y9em-KiyQhrqL3btpmxN5nk",
+    authDomain: "dabble-studio.firebaseapp.com",
+    projectId: "dabble-studio",
+    storageBucket: "dabble-studio.appspot.com",
+    messagingSenderId: "8424145391",
+    appId: "1:8424145391:web:867069dc5cfcacf2bb361a",
+    measurementId: "G-DL98Y68R8W"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 </body>
 </html>
