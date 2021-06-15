@@ -27,7 +27,7 @@ class MessageSent extends StatelessWidget {
           child: AspectRatio(
             aspectRatio: 1.0,
             child: CircleAvatar(
-              backgroundColor: Colors.green,
+              backgroundColor: Theme.of(context).colorScheme.secondary,
               child: Icon(
                 MdiIcons.check,
                 color: Colors.white,
@@ -38,7 +38,7 @@ class MessageSent extends StatelessWidget {
         ListTile(
           title: Text(
             "Thank you $name, your message has been sent!",
-            style: kCallToActionButtonTextStyle,
+            style: kCallToActionButtonTextStyle.copyWith(color: Colors.black),
             textAlign: TextAlign.center,
           ),
         ),

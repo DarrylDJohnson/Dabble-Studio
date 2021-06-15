@@ -27,15 +27,15 @@ class Link {
         this.iconData = MdiIcons.instagram;
 
   Link.android(this.url)
-      : this.title = url,
+      : this.title = "Google Play Store",
         this.iconData = MdiIcons.android;
 
   Link.ios(this.url)
-      : this.title = url,
+      : this.title = "Apple Store",
         this.iconData = MdiIcons.apple;
 
   Link.web(this.url)
-      : this.title = url,
+      : this.title = "Web",
         this.iconData = MdiIcons.xml;
 }
 
