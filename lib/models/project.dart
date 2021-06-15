@@ -22,7 +22,7 @@ class Project {
 
 final List<Project> projects = [
   Project(
-    asset: "images/weather.png",
+    asset: "assets/images/weather.png",
     title: "Dabble Weather",
     description: "Flutter app for current, hourly and daily weather forecasts.",
     type: "Flutter App",
@@ -37,14 +37,14 @@ final List<Project> projects = [
     ],
   ),
   Project(
-    asset: "images/weather_icons.png",
+    asset: "assets/images/weather_icons.png",
     title: "Dabble Weather Icons",
     description:
         "Weather icon package based on OpenWeatherMap API weather codes.",
     type: "Icon Pack",
   ),
   Project(
-    asset: "images/notes.png",
+    asset: "assets/images/notes.png",
     title: "Dabble Notes",
     description:
         "A note taking app with cloud storage and sharable lists and notes",
