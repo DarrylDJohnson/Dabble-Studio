@@ -39,11 +39,13 @@ class ServiceSliver extends StatelessWidget {
                           "from just one codebase.",
                           style: Theme.of(context).textTheme.headline6,
                         ),
+                        /*
                         ActionButton(
                           "View our services",
                           onPressed: () =>
                               Navigator.of(context).pushNamed(serviceRoute),
                         ),
+                         */
                       ],
                     ),
                   ),
@@ -81,11 +83,14 @@ class ServiceSliver extends StatelessWidget {
                       SizedBox(
                         height: 16.0,
                       ),
+                      /*
                       ActionButton(
                         "View our services",
                         onPressed: () =>
                             Navigator.of(context).pushNamed(serviceRoute),
                       ),
+
+                       */
                     ],
                   ),
                 ),

@@ -6,6 +6,7 @@ import 'package:dabble_studio/ui/service/service_page.dart';
 
 const String homeRoute = "/home";
 const String projectRoute = "/project";
+const String viewProjectRoute = "/viewProject";
 const String serviceRoute = "/service";
 const String aboutRoute = "/about";
 const String contactRoute = "/contact";

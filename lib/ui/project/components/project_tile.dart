@@ -1,4 +1,5 @@
 import 'package:dabble_studio/models/project.dart';
+import 'package:dabble_studio/ui/project/components/project_dialog.dart';
 import 'package:flutter/material.dart';
 
 class ProjectTile extends StatelessWidget {
@@ -12,16 +13,14 @@ class ProjectTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage(project.asset), fit: BoxFit.cover)),
-        child: MaterialButton(
-          child: Column(
-            children: [],
-          ),
-          onPressed: (){},
+      decoration: BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage(project.asset), fit: BoxFit.cover)),
+      child: MaterialButton(
+        child: Column(
+          children: [],
         ),
+        onPressed: () => showProjectDialog(context, project),
       ),
     );
   }
