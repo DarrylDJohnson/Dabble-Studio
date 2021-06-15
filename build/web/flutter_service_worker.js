@@ -50,9 +50,9 @@ const RESOURCES = {
 "assets/packages/material_design_icons_flutter/lib/fonts/materialdesignicons-webfont.ttf": "174c02fc4609e8fc4389f5d21f16a296",
 "favicon.svg": "3fdb2fbd3e4c7d48e56930e6569aa9ca",
 "icons/favicon.svg": "3fdb2fbd3e4c7d48e56930e6569aa9ca",
-"index.html": "5873b3a51cb42d8714a354f966703b16",
-"/": "5873b3a51cb42d8714a354f966703b16",
-"main.dart.js": "000326c5ecf174955dd95936376ef011",
+"index.html": "9da75ac9206150f56c1d09fa4f3a7514",
+"/": "9da75ac9206150f56c1d09fa4f3a7514",
+"main.dart.js": "e80bce240db92997a6c3f0bf8cae972a",
 "manifest.json": "de582f42234f854ed3d8a69efb7e5636",
 "version.json": "bddb03467ceb8b8ca3bc625411460c63"
 };
